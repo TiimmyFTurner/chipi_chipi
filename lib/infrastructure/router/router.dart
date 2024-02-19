@@ -1,4 +1,5 @@
 import 'package:chipi_chipi/infrastructure/router/routes_constant.dart';
+import 'package:chipi_chipi/presentation/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -11,7 +12,7 @@ class AppRouter {
     routes: [
       GoRoute(
         path: Routes.home,
-        // builder: (context, state) => const HomeScreen(),
+        builder: (context, state) => const HomeScreen(),
       ),
     ],
     // errorBuilder: (context, state) => const NotFoundScreen(),
